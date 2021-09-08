@@ -1,0 +1,51 @@
+body {
+    background: lightsalmon;
+}
+
+#title, .subtitle, .post_title {
+    color: white;
+}
+
+#title {
+    background: limegreen;
+    font-size: 70;
+    font-style: initial;
+}
+
+.post_title {
+    background: darkslategray;
+    font-size: 40px;
+    font-style: inherit;
+    border: 5px ridge black;
+}
+
+.subtitle {
+    background: lightslategrey;
+    font-size: 20;
+    font-style: oblique;
+    padding: 10px;
+    border: 2px groove white;
+}
+
+.post {
+    background-image: url("1.jpg");
+    padding: 5px;
+    border: 3px dotted #000;
+    border-radius: 20% 0 30% 10%;
+    border-bottom-color: khaki;
+    margin: 20px;
+    width: 300px;  
+}
+
+.corTexto{
+    color: white;
+}
+
+.linkpag{
+    color: violet;
+}
+
+.imagem{
+    border-radius: 50%;
+    border: 3px solid black;
+}
